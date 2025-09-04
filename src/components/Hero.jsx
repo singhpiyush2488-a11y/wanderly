@@ -37,18 +37,18 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="inline-block"
             >
-              <span className="bg-gradient-accent text-white px-4 py-2 rounded-full text-sm font-semibold tracking-wide shadow-glow-teal">
-                ✨ AI-Powered Travel Planning
+              <span className="bg-gradient-accent text-white px-4 py-2 rounded-full text-sm font-semibold tracking-wide shadow-glow-teal animate-pulse">
+                💪 AI-Powered Fitness Coaching
               </span>
             </motion.div>
             
             <h1 className="text-5xl lg:text-6xl font-bold leading-[1.1] bg-gradient-to-r from-text-primary via-accent-teal to-accent-purple bg-clip-text text-transparent">
-              Plan your perfect trip with AI-powered itineraries
+              Your AI fitness companion that adapts to your lifestyle
             </h1>
             
             <p className="text-xl lg:text-2xl text-text-muted leading-relaxed font-light">
-              Get personalized day-by-day travel plans based on your interests, budget, and travel style. 
-              <span className="text-accent-teal font-medium">No more hours of research</span> – just amazing adventures.
+              Get personalized daily workouts based on your fitness level, available time, and equipment. 
+              <span className="text-accent-teal font-medium">No more guesswork</span> – just effective results.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -57,7 +57,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-accent text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-glow-teal hover:shadow-glow-coral transition-all duration-500 relative overflow-hidden group"
               >
-                <span className="relative z-10 tracking-wide">Start Planning Your Trip</span>
+                <span className="relative z-10 tracking-wide">Start Your Fitness Journey</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
               </motion.button>
               
@@ -66,7 +66,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 className="text-text-secondary border border-glass-border px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-white/5 hover:border-accent-teal/50 transition-all duration-300 backdrop-blur-sm tracking-wide"
               >
-                View Examples
+                Try Demo Workout
               </motion.button>
             </div>
             
@@ -82,7 +82,7 @@ const Hero = () => {
                     <div key={i} className="w-8 h-8 bg-gradient-accent rounded-full border-2 border-dark-bg"></div>
                   ))}
                 </div>
-                <span className="text-text-muted text-sm">10,000+ travelers</span>
+                <span className="text-text-muted text-sm">50,000+ users</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="flex text-accent-gold">
@@ -102,7 +102,7 @@ const Hero = () => {
             className="flex justify-center lg:justify-end relative"
           >
             <div className="absolute inset-0 bg-gradient-accent opacity-20 blur-3xl rounded-full"></div>
-            <ItineraryPreview />
+            <WorkoutCard />
           </motion.div>
         </div>
       </div>
