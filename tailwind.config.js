@@ -39,9 +39,9 @@
 +        '6xl': ['3.75rem', { lineHeight: '1.1' }],
 +      },
        backgroundImage: {
--        'gradient-main': 'linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%)',
--        'gradient-accent': 'linear-gradient(135deg, #ff6b6b, #4ecdc4)',
--        'gradient-card': 'linear-gradient(135deg, rgba(26, 32, 44, 0.95) 0%, rgba(45, 55, 72, 0.95) 100%)',
+        'gradient-main': 'linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%)',
+        'gradient-accent': 'linear-gradient(135deg, #ff4757, #2ed573)',
+        'gradient-card': 'linear-gradient(135deg, rgba(26, 32, 44, 0.95) 0%, rgba(45, 55, 72, 0.95) 100%)',
 +        'gradient-main': 'radial-gradient(ellipse at top, #1a1a2e 0%, #0f0f23 50%, #0a0a1a 100%)',
 +        'gradient-accent': 'linear-gradient(135deg, #ff6b6b 0%, #8b5cf6 50%, #4ecdc4 100%)',
 +        'gradient-card': 'linear-gradient(135deg, rgba(15, 15, 35, 0.8) 0%, rgba(26, 26, 46, 0.9) 100%)',

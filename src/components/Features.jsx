@@ -1,3 +1,6 @@
+import React from 'react'
+import { motion } from 'framer-motion'
+
 const Features = () => {
   const features = [
     {
@@ -17,6 +20,24 @@ const Features = () => {
       title: "Save Hours of Research",
       description: "Skip the endless planning. Get a complete day-by-day itinerary with activities, restaurants, and logistics all figured out.",
       gradient: "from-accent-teal to-accent-gold"
+    },
+    {
+      icon: "🗺️",
+      title: "Interactive Maps",
+      description: "Optimized routing with interactive maps showing attractions, restaurants, and activities with perfect timing and logistics.",
+      gradient: "from-accent-blue to-accent-teal"
+    },
+    {
+      icon: "💰",
+      title: "Budget Optimization",
+      description: "Real-time cost breakdown and budget estimation to keep your trip within your desired spending range.",
+      gradient: "from-accent-gold to-accent-orange"
+    },
+    {
+      icon: "🌤️",
+      title: "Weather Integration",
+      description: "Dynamic re-planning based on weather conditions with packing suggestions and indoor alternatives when needed.",
+      gradient: "from-accent-blue to-accent-purple"
     }
   ];
 
@@ -58,14 +79,14 @@ const Features = () => {
             </motion.p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-10 relative z-10">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 relative z-10">
             {features.map((feature, index) => (
               <motion.div
                 key={feature.title}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.15 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ scale: 1.05, y: -15 }}
                 className="backdrop-blur-xl bg-card-secondary border border-glass-border rounded-3xl p-10 text-center shadow-glass hover:shadow-glow-teal hover:border-accent-teal/40 transition-all duration-500 group cursor-pointer relative overflow-hidden"
               >
@@ -89,3 +110,5 @@ const Features = () => {
     </section>
   );
 };
+
+export default Features

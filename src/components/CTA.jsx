@@ -64,7 +64,7 @@
 +              viewport={{ once: true }}
 +              transition={{ duration: 0.6, delay: 0.2 }}
 +            >
-+              Join thousands of travelers who've discovered their perfect trips with Wanderly
++              Join 50,000+ travelers who've discovered their perfect trips with Wanderly. From weekend getaways to month-long adventures.
 +            </motion.p>
 +            
 +            <motion.div
@@ -88,7 +88,7 @@
 +                whileTap={{ scale: 0.95 }}
 +                className="text-text-secondary border border-glass-border px-10 py-5 rounded-2xl font-semibold text-xl hover:bg-white/5 hover:border-accent-teal/50 transition-all duration-300 backdrop-blur-sm tracking-wide"
 +              >
-+                Watch Demo
++                Explore Sample Trips
 +              </motion.button>
 +            </motion.div>
 +            
@@ -120,4 +120,3 @@
 +}
 +
 +export default CTA
-+

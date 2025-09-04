@@ -17,13 +17,13 @@
 +            className="bg-gradient-accent text-white px-6 py-3 rounded-2xl font-bold text-lg shadow-glow-teal hover:shadow-glow-coral transition-all duration-500 relative overflow-hidden group"
            >
 -            WANDERLY
-            <span className="relative z-10 tracking-wide">FITFLOW</span>
+            <span className="relative z-10 tracking-wide">WANDERLY</span>
 +            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
            </motion.a>
  
            {/* Desktop Navigation */}
 -          <nav className="hidden md:flex items-center space-x-8">
-            {['Workouts', 'Progress', 'Community', 'Nutrition'].map((item) => (
+            {['How it works', 'Destinations', 'Local Insights', 'Pricing'].map((item) => (
              {['How it works', 'Destinations', 'Examples', 'Pricing'].map((item) => (
                <motion.a
                  key={item}
@@ -58,7 +58,7 @@
 -            className="md:hidden mt-4 space-y-4"
 +            className="md:hidden mt-6 space-y-4 backdrop-blur-xl bg-card-bg/95 rounded-2xl p-6 border border-glass-border"
            >
-            {['Workouts', 'Progress', 'Community', 'Nutrition'].map((item) => (
+            {['How it works', 'Destinations', 'Local Insights', 'Pricing'].map((item) => (
                <a
                  key={item}
                  href="#"
