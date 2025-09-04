@@ -29,3 +29,5 @@ import LocalInsights from './components/LocalInsights'
          <CTA />
        </main>
      </div>
+   )
+ }
